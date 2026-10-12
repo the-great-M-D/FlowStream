@@ -29,6 +29,10 @@ class ConfigStore private constructor(
     val all: List<StarkConfig> get() = named.map { it.config } + unnamed
 
     companion object {
+        /** An empty store carrying only warnings — for callers that degrade gracefully. */
+        fun empty(warnings: List<String> = emptyList()): ConfigStore =
+            ConfigStore(emptyList(), emptyList(), warnings)
+
         /** Parse the raw carve export: JSON objects separated by blank lines. */
         fun fromRawCarve(text: String): ConfigStore {
             val named = ArrayList<NamedConfig>()

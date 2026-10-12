@@ -1,0 +1,1171 @@
+[
+ {
+  "name": "[HTTP-INJECT] cdn.rawgit.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "POST http://www.asiacell.com/personal/my-account/connect-mifi HTTP/1.1[crlf]Host: www.asiacell.com/personal/my-account/connect-mifi[crlf]X-Online-Host: www.asiacell.com/personal/my-account/connect-mifi[crlf]Connection: keep-alive[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "cdn.rawgit.com"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] openvpn",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "TRACE http://www.whatsapp.com/ HTTP/1.1[crlf]Host: www.whatsapp.com[crlf][crlf]CONNECT www.whatsapp.com@[host_port] [protocol][crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "openvpn://udp:53",
+   "primary_host": "spoon.momslaps.xyz",
+   "primary_nameserver": "ns.starkdns.com",
+   "custom_resolver": "8.8.4.4"
+  }
+ },
+ {
+  "name": "[V2RAY] 104.22.71.205",
+  "config": {
+   "connection_mode": 4,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "8080",
+   "proxy_port": "8080",
+   "custom_payload": "",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "104.22.71.205",
+   "primary_host": "spoon.momslaps.xyz",
+   "primary_nameserver": "ns.starkdns.com",
+   "custom_resolver": "1.1.1.1"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] strkv.toof.dns-dynamic.net@vless",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": true,
+   "use_v2ray_mod": true,
+   "proxy_host": "198.217.251.250:443",
+   "proxy_port": "198.217.251.250:443",
+   "custom_payload": "TRACE http://www.whatsapp.com/ HTTP/1.1[crlf]Host: www.whatsapp.com[crlf][crlf]CONNECT www.whatsapp.com@[host_port] [protocol][crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "strkv.toof.dns-dynamic.net@vless"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] hysteria",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "hysteria://89.38.227.2:1-65535@myudp:udpvpn",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] go.crisp.chat",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "go.crisp.chat"
+  }
+ },
+ {
+  "name": "[SSL] davinplumbingservices.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: m.youtube.com[crlf]Upgrade: websocket[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "davinplumbingservices.com:80"
+  }
+ },
+ {
+  "name": "[SSL] davinplumbingservices.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.youtube.com:443[host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "davinplumbingservices.com:80"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] cdn-cli.expertdev.co",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.youtube.com:443[host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "cdn-cli.expertdev.co"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] cdn.snapchat.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.simfy.co.zw[crlf",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "cdn.snapchat.com"
+  }
+ },
+ {
+  "name": "[SSL] firebaseinstallations.googleapis.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": " GET / HTTP/1.1[crlf]Host: sslwireless.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "firebaseinstallations.googleapis.com"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 172.66.0.251",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "443",
+   "proxy_port": "443",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "172.66.0.251"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 162.159.140.98",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "",
+   "proxy_port": "",
+   "custom_payload": "HTTP/1.0[crlf]Host: https://airtelafrica.onelink.me/cGyr/C.com[crlf]Connection: keep-alive[crlf]X-Online-Host: https://airtelafrica.onelink.me/cGyr/C.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "162.159.140.98"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.21.24.197",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "orange.ci",
+   "custom_sni": "104.21.24.197",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] i.ayo.ba",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "[trixogo.tri.co.id@netData]\\\\r\\\\r\\nGET http://trixogo.tri.co.id HTTP/1.1\\\\r\\nHost: trixogo.tri.co.id\\\\r\\nConnection: keep-alive\\\\r\\nProxy-Connection: keep-alive\\\\r\\\\r\\n[netData]\\\\r\\\\r",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "i.ayo.ba"
+  }
+ },
+ {
+  "name": "[SSL] i.ayo.ba",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "8080",
+   "use_proxy": true,
+   "use_v2ray_mod": true,
+   "proxy_host": "194.233.74.108:80",
+   "proxy_port": "194.233.74.108:80",
+   "custom_payload": "GET http://zero.o2online.de/lp/o2undsp-prepaid-wenig-guthaben/ HTTP/1.1[crlf]Host: http://zero.o2online.de/lp/o2undsp-prepaid-wenig-guthaben/[crlf][crlf]CONNECT [host_port] [protocol][crlf]Content-Length: 100000000[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "i.ayo.ba"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] apps.ortelmobile.de",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "194.233.74.108:80",
+   "proxy_port": "194.233.74.108:80",
+   "custom_payload": "GET http://zero.o2online.de/lp/o2undsp-prepaid-wenig-guthaben/ HTTP/1.1[crlf]Host: http://zero.o2online.de/lp/o2undsp-prepaid-wenig-guthaben/[crlf][crlf]CONNECT [host_port] [protocol][crlf]Content-Length: 100000000[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "apps.ortelmobile.de"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] api.osnplus.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.simfy.co.zw[crlf",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "api.osnplus.com"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] ooredoogroup.qualtrics.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.simfy.co.zw[crlf",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "ooredoogroup.qualtrics.com:80"
+  }
+ },
+ {
+  "name": "[SSL] ooredoogroup.qualtrics.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.anghami.com[crlf]Upgrade: websocket[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "ooredoogroup.qualtrics.com:80"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] fplayer.mayya.et",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.anghami.com[crlf]Upgrade: websocket[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "fplayer.mayya.et"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.26.14.41",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "104.26.14.41",
+   "custom_sni": "104.26.14.41",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 188.114.97.5",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET [Host] [protocol[crlf][crlf]",
+   "custom_host": "109.123.247.137",
+   "custom_sni": "188.114.97.5:80",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] ghanahealthservice.org",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "HTTP/1.0[crlf]Host: http://\"GET http:\\/\\/176.57.188.157 HTTP\\/1.1[crlf]Host: [rotate=ayoba.me;mymtn.com.ng;mobucks.mtnbusiness.com.ng;datareset-mtnonline.zerod.com.ng][crlf][crlf]\" [crlf]Connection: keep-alive[crlf][crlf]`",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "ghanahealthservice.org",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 162.159.135.42",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.getepic.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+   "custom_host": "162.159.135.42",
+   "custom_sni": "162.159.135.42",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] gn.total.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET http://eudata.cosmote.gr/ HTTP/1.1[crlf]Host: eudata.cosmote.gr/[crlf]X-Online-Host: eudata.cosmote.gr/[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "gn.total.com"
+  }
+ },
+ {
+  "name": "[SSL] www.opensignal.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "[trixogo.tri.co.id@netData]\\\\r\\\\r\\nGET http://trixogo.tri.co.id HTTP/1.1\\\\r\\nHost: trixogo.tri.co.id\\\\r\\nConnection: keep-alive\\\\r\\nProxy-Connection: keep-alive\\\\r\\\\r\\n[netData]\\\\r\\\\r",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "www.opensignal.com:80"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] staging.games.axis.co.id",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET http://eudata.cosmote.gr/ HTTP/1.1[crlf]Host: eudata.cosmote.gr/[crlf]X-Online-Host: eudata.cosmote.gr/[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "staging.games.axis.co.id"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] script.crazyegg.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "script.crazyegg.com:80",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] ads.phonepe.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "170.114.52.2",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "ads.phonepe.com:80",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] support.phonepe.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET [Host] [protocol[crlf][crlf]",
+   "custom_host": "109.123.247.137",
+   "custom_sni": "support.phonepe.com:80",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] script.crazyegg.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "170.114.52.2",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "script.crazyegg.com",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] pdfdrive.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "POST http://www.asiacell.com/personal/my-account/connect-mifi HTTP/1.1[crlf]Host: www.asiacell.com/personal/my-account/connect-mifi[crlf]X-Online-Host: www.asiacell.com/personal/my-account/connect-mifi[crlf]Connection: keep-alive[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "pdfdrive.com"
+  }
+ },
+ {
+  "name": "[SSL] www.opensignal.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET http://gpay.libyana.ly/ HTTP/1.1[crlf]Host: gpay.libyana.ly/[crlf]User-Agent: Yes[crlf]Connection: close[crlf]Proxy-Connection: Keep-Alive[crlf][crlf][crlf][netData][crlf][crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "www.opensignal.com:80"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] portal-dev.brandvno.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "portal-dev.brandvno.com"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] prodapi.vmmx2.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "POST http://ncdc.gov.ng HTTP/1.1[crlf]Host: http://ncdc.gov.ng[crlf]Connection: keep-alive[crlf]User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; TECNO PR651E Build/RP1A.201005.001)[crlf]X-Online-Host: ncdc.gov.ng[crlf]X-Forward-Host: ncdc.gov.ng[crlf][crlf]",
+   "custom_host": "172.67.72.14",
+   "custom_sni": "prodapi.vmmx2.com:44",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] apps.ortelmobile.de",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "194.233.74.108:80",
+   "proxy_port": "194.233.74.108:80",
+   "custom_payload": "HTTP/1.0[crlf]Host: https://airtelafrica.onelink.me/cGyr/C.com[crlf]Connection: keep-alive[crlf]X-Online-Host: https://airtelafrica.onelink.me/cGyr/C.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "apps.ortelmobile.de"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.17.113.188",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "104.17.113.188",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] app.yoma.africa",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "194.233.74.108:80",
+   "proxy_port": "194.233.74.108:80",
+   "custom_payload": "HTTP/1.0[crlf]Host: https://airtelafrica.onelink.me/cGyr/C.com[crlf]Connection: keep-alive[crlf]X-Online-Host: https://airtelafrica.onelink.me/cGyr/C.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "app.yoma.africa:80"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.26.9.2",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "443",
+   "proxy_port": "443",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "104.26.9.2",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.18.11.193",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "",
+   "proxy_port": "",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "104.18.11.193",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] winners.wowlotto.ng",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "mtn1app.mtn.com",
+   "custom_sni": "winners.wowlotto.ng:2082",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] ncdc.gov.ng",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "ncdc.gov.ng:2082",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] trending.tiktok.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "POST http://ncdc.gov.ng HTTP/1.1[crlf]Host: http://ncdc.gov.ng[crlf]Connection: keep-alive[crlf]User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; TECNO PR651E Build/RP1A.201005.001)[crlf]X-Online-Host: ncdc.gov.ng[crlf]X-Forward-Host: ncdc.gov.ng[crlf][crlf]",
+   "custom_host": "172.67.72.14",
+   "custom_sni": "trending.tiktok.com",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] ncdc.gov.ng",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "443",
+   "proxy_port": "443",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "ncdc.gov.ng"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] winners.wowlotto.ng",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "104.26.14.41",
+   "custom_sni": "winners.wowlotto.ng:2082",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 102.221.184.4",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "",
+   "proxy_port": "",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "102.221.184.4",
+   "primary_host": "spoon.momslaps.xyz",
+   "primary_nameserver": "ns.starkdns.com",
+   "custom_resolver": "8.8.4.4"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 172.67.156.211",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "HTTP/1.0[crlf]Host: http://104.18.225.5[crlf]Connection: keep-alive[crlf]X-Online-Host: 104.18.225.5[crlf]X-Forward-Host: 104.18.225.5[crlf][crlf]`",
+   "custom_host": "www.ntel.com.ng",
+   "custom_sni": "172.67.156.211",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.17.113.188",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "mtn1app.mtn.com",
+   "custom_sni": "104.17.113.188",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.20.40.130",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "HTTP/1.0[crlf]Host: http://104.18.225.5[crlf]Connection: keep-alive[crlf]X-Online-Host: 104.18.225.5[crlf]X-Forward-Host: 104.18.225.5[crlf][crlf]`",
+   "custom_host": "www.ntel.com.ng",
+   "custom_sni": "104.20.40.130:80",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.20.40.130",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "",
+   "custom_sni": "104.20.40.130:80",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] www.snapchat.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET wss://Facebook.com/ HTTP/1.1[crlf]Host: sg3.sshws.me[crlf]Upgrade: websocket[crlf][crlf",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "www.snapchat.com",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] 104.22.71.205",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "",
+   "proxy_port": "",
+   "custom_payload": "TRACE http://www.whatsapp.com/ HTTP/1.1[crlf]Host: www.whatsapp.com[crlf][crlf]CONNECT www.whatsapp.com@[host_port] [protocol][crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "104.22.71.205",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] www.snapchat.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "TRACE http://www.malikdanial.com/ HTTP/1.1[crlf]Host: www.malikdanial.com[crlf][crlf]CONNECT www.malikdanial.com@[host_port] [protocol][crlf][crlf]",
+   "custom_host": "",
+   "custom_sni": "www.snapchat.com",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] who.int",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "TRACE http://www.whatsapp.com/ HTTP/1.1[crlf]Host: www.whatsapp.com[crlf][crlf]CONNECT www.whatsapp.com@[host_port] [protocol][crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "who.int:80",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] who.int",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "104.26.14.41",
+   "custom_sni": "who.int:80",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 172.67.215.133",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host:http://filter.ncnd.jazz.com.pk/nc[crlf]Upgrade: websocket[crlf][crlf]",
+   "custom_host": "mosafir.pk",
+   "custom_sni": "172.67.215.133",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 162.159.128.79",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "104.26.14.41",
+   "custom_sni": "162.159.128.79:80",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] 172.66.40.137",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: ufonepk.filter.ncnd.mobi/nc[crlf]Upgrade: websocket[crlf][crlf]",
+   "custom_host": "",
+   "custom_sni": "172.66.40.137",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] www.snapchat.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET  https://ufonepk.filter.ncnd.mobi/nc HTTP/1.1[crlf]\nHost:ufonepk.filter.ncnd.mobi/nc[crlf]\n[crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "www.snapchat.com",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] free.facebook.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "",
+   "custom_host": "",
+   "custom_sni": "free.facebook.com",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] www.snapchat.com",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "POST http://cdn.whatsapp.com HTTP/1.1[crlf]\nHost: cdn.whatsapp.com[crlf]\nX-Online-Host: cdn.whatsapp.com[crlf]\nX-Forward-Host: cdn.whatsapp.com[crlf]\nConnection: keep-alive[crlf]\n[crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "www.snapchat.com",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 172.67.156.211",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "8080",
+   "proxy_port": "8080",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "172.67.156.211",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] www.waze.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "",
+   "proxy_port": "",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "www.waze.com:8080",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] www.opensignal.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": " GET / HTTP/1.1[crlf]Host: sslwireless.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "www.opensignal.com:80"
+  }
+ },
+ {
+  "name": "[SSL] fplayer.mayya.et",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "CONNECT [host_port] [protocol][crlf]Host: swf.tvoip.turkcell.com.tr[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "fplayer.mayya.et"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] braze-images.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET http://eudata.cosmote.gr/ HTTP/1.1[crlf]Host: eudata.cosmote.gr/[crlf]X-Online-Host: eudata.cosmote.gr/[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "braze-images.com"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] www.premierbet.co.tz",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET http://www.premierbet.co.tz HTTP/1.1[crlf]Host: http://www.premierbet.co.tz[crlf]Connection: keep-alive[crlf]User-Agent: Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-G935F Build/MMB29K)[crlf]X-Online-Host: www.premierbet.co.tz[crlf][crlf]",
+   "custom_host": "www.premierbet.co.tz",
+   "custom_sni": "www.premierbet.co.tz",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] details.yotvchannels.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.unicef.org[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "details.yotvchannels.com"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 170.114.52.2",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "170.114.52.2",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "170.114.52.2",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] www.airtelkenya.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "170.114.52.2",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "www.airtelkenya.com",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] grandvalleyfibre.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "443",
+   "proxy_port": "443",
+   "custom_payload": "CONNECT [host_port] HTTP/1.0[crlf]Host: www.snapchat.com[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "grandvalleyfibre.com:80"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] facebook.com",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "8080",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "HTTP/1.0[crlf]Host: http://\"GET http:\\/\\/176.57.188.157 HTTP\\/1.1[crlf]Host: [rotate=ayoba.me;mymtn.com.ng;mobucks.mtnbusiness.com.ng;datareset-mtnonline.zerod.com.ng][crlf][crlf]\" [crlf]Connection: keep-alive[crlf][crlf]`",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "facebook.com",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.19.152.111",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "443",
+   "proxy_port": "443",
+   "custom_payload": "",
+   "custom_host": "104.19.152.111",
+   "custom_sni": "104.19.152.111",
+   "primary_host": "spoon.momslaps.xyz"
+  }
+ },
+ {
+  "name": "[SSL] fplayer.mayya.et",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: corporate.latamairlines.com [crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "fplayer.mayya.et"
+  }
+ },
+ {
+  "name": "[SSL] fplayer.mayya.et",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "HTTP/8.1 200[lf]Host: gabe.ns.cloudflare.com[lf];Host: www.blogger.com[lf]Host:srv194-139-240-87.vk.com[lf]Connection: Keep-Alive[crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "fplayer.mayya.et"
+  }
+ },
+ {
+  "name": "[SSL] fplayer.mayya.et",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.zim.gov.zw[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "fplayer.mayya.et"
+  }
+ },
+ {
+  "name": "[SSL] fplayer.mayya.et",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": false,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.unicef.org[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "fplayer.mayya.et"
+  }
+ },
+ {
+  "name": "[HTTP-INJECT] 104.18.189.228",
+  "config": {
+   "connection_mode": 3,
+   "server_port": "443",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET http://eudata.cosmote.gr/ HTTP/1.1[crlf]Host: eudata.cosmote.gr/[crlf]X-Online-Host: eudata.cosmote.gr/[crlf][crlf]",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "104.18.189.228:80"
+  }
+ },
+ {
+  "name": "[SSL] www.netone.co.zw",
+  "config": {
+   "connection_mode": 1,
+   "server_port": "80",
+   "use_proxy": false,
+   "use_v2ray_mod": true,
+   "proxy_host": "0",
+   "proxy_port": "0",
+   "custom_payload": "GET / HTTP/1.1[crlf]Host: www.simfy.co.zw[crlf",
+   "custom_host": "www.snapchat.com",
+   "custom_sni": "www.netone.co.zw"
+  }
+ }
+]

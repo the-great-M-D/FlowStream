@@ -98,6 +98,9 @@ class MainActivity : Activity() {
         pauseButton.setOnClickListener { handle?.pause() }
         resumeButton.setOnClickListener { handle?.resume() }
         cancelButton.setOnClickListener { handle?.cancel() }
+        findViewById<Button>(R.id.servers_button).setOnClickListener {
+            startActivity(android.content.Intent(this, ServersActivity::class.java))
+        }
 
             // After engine construction so handles exist before observing.
             val recovered = engine.recover(downloadDir.toPath())

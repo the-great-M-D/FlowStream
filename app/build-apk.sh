@@ -23,9 +23,10 @@ $BT/aapt2 link \
   --java "$OUT/gen" \
   --min-sdk-version 26 \
   --target-sdk-version 34 \
-  --version-code 3 \
-  --version-name 1.0.2 \
+  --version-code 4 \
+  --version-name 1.0.3 \
   --auto-add-overlay \
+  -A "$ROOT/app/src/assets" \
   "$OUT/res.zip"
 
 echo "== [3/7] javac R.java =="
@@ -36,7 +37,7 @@ echo "== [4/7] kotlinc engine + app =="
   -classpath "$PLAT:/opt/coroutines.jar:$OUT/classes" \
   -jvm-target 11 \
   -d "$OUT/classes" \
-  $(find "$ROOT/engine/src/main" "$ROOT/app/src/kotlin" -name '*.kt') 2>&1 | grep -v "^warning:" || true
+  $(find "$ROOT/engine/src/main" "$ROOT/app/src/kotlin" "$ROOT/libdex/src/main" -name '*.kt') 2>&1 | grep -v "^warning:" || true
 
 echo "== [5/7] d8 -> classes.dex (app + engine + stdlib + coroutines + android-dispatcher) =="
 (cd "$OUT/classes" && jar cf "$OUT/app-classes.jar" .)
